@@ -1,0 +1,19 @@
+The instructions to use are common for both End-user and Developer version.
+Only difference is that for developer version you need to have Python installed along with PyPDF2 module.
+
+How to use:
+
+Step 1: Create a folder and add all the pdf files that you want to merge in that folder.
+Step 2: Copy this pdfMerger.exe/pdefMerger.py file into that folder.
+Step 3: pdfMerger merges files in alphabetic order of their names.
+For example: Four pdf files named: Airline, 7rules, Train and bus will be merged in the following order
+7rules, Airline, bus, Train
+Step 4: If needed, rename file names to match the order in which they need to be merged.
+Step 5: Double-click the pdfMerger.exe/pdfMerger.py file, a command window shall open.
+Step 6: Enter a name for the final merged pdf when asked.
+Step 7: Make sure no file with the same name already exists in the current folder.
+Step: Close the command prompt before opening the mergedPDF.
+
+NOTE: Non-PDF files that are present in the folder will simply be ignored. 
+NOTE: If you enter a name for the final merged pdf that already exists the folder, then the program will ask you to retry with some other name.
+NOTE: If the merged PDF fails to open, make sure you have closed the command prompt.
